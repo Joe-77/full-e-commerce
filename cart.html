@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="img/joe-store-logo.png" />
+    <title>Payment</title>
+    <link rel="stylesheet" href="dist/style.css" />
+    <link rel="stylesheet" href="css/script.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div
+        class="header p-5 fixed z-[100] w-full top-0 left-0 bg-white shadow-md shadow-stone-800 flex-col md:flex-row gap-4 flex items-center justify-between"
+      >
+        <div
+          class="homeLogo flex justify-between items-center w-full md:w-auto"
+        >
+          <h1
+            class="cursor-pointer select-none text-myColor italic md:text-xl font-mono animate-pulse"
+          >
+            Joe Store
+          </h1>
+          <div class="menu block md:hidden cursor-pointer">
+            <i onclick="showMenu()" class="fa-solid fa-bars"></i>
+          </div>
+        </div>
+        <ul class="category flex flex-col md:flex-row items-center gap-10">
+          <i onclick="hideMenu()" class="fa-solid fa-xmark" id="clothe"></i>
+          <li class="duration-700 hover:text-red-700">
+            <a href="home.html">Home</a>
+          </li>
+          <li class="duration-700 hover:text-red-700">
+            <a href="apple.html">Apple</a>
+          </li>
+          <li class="duration-700 hover:text-red-700">
+            <a href="samsung.html" class="flex gap-1"> Samsung </a>
+          </li>
+          <li class="duration-700 hover:text-red-700">
+            <a href="lenovo.html" class="flex gap-1"> Lenovo </a>
+          </li>
+        </ul>
+        <div class="right flex items-center gap-10">
+          <div class="search relative">
+            <input
+              class="outline-none mr-2 bg-input w-12 duration-700 pl-2 focus:pl-4 focus:w-20 sm:focus:w-32 rounded-xl"
+              type="text"
+              id="searchPar"
+              onkeyup="searchProduct()"
+            />
+            <i class="cursor-pointer fa-solid fa-magnifying-glass"></i>
+          </div>
+          <div class="users">
+            <i class="fa-regular fa-user"></i>
+            <span class="text-xs capitalize" id="yourName">welcome</span>
+          </div>
+          <div class="cart relative cursor-pointer">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span id="cartNumber">0</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="productList paymentCart mt-32 cart flex gap-36">
+        <div class="summary basis-1/3">
+          <h2 class="font-bold text-2xl tracking-letterSpacing italic">
+            Summary Order
+          </h2>
+          <p class="text-gray-500 mt-4 mb-4">
+            Check your item and select your shipping for better experience order
+            item.
+          </p>
+          <div class="productItem"></div>
+        </div>
+        <div class="details flex-1">
+          <h2 class="font-bold text-2xl tracking-letterSpacing italic">
+            Payment Details
+          </h2>
+          <p class="text-gray-500 mt-4 mb-4 w-80 leading-8">
+            Complete your purchase by providing your payment details order.
+          </p>
+
+          <form>
+            <div class="mail">
+              <label for="email">Email Address</label>
+              <div class="relative w-1/2">
+                <input
+                  id="email"
+                  type="text"
+                  class="w-full rounded-md outline-none border-2 border-gray-400 p-1 mt-2"
+                />
+                <div class="check absolute">
+                  <i class="fa-solid fa-check"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="card mt-5 mb-5">
+              <label for="card" class="mb-4">Card Details</label>
+              <div class="flex w-3/4">
+                <input
+                  minlength="13"
+                  maxlength="13"
+                  type="text"
+                  class="border-l-2 rounded-s-md w-full border-t-2 border-b-2 border-gray-400 p-1 mt-2"
+                  placeholder="Card Number"
+                  id="cardNum"
+                />
+                <input
+                  type="number"
+                  max="12"
+                  class="w-12 border-t-2 border-b-2 border-gray-400 p-1 mt-2"
+                  placeholder="MM"
+                  id="expired"
+                />
+                <input
+                  type="number"
+                  class="w-20 border-r-2 border-t-2 border-b-2 border-gray-400 p-1 mt-2"
+                  placeholder="YY"
+                  id="year"
+                />
+                <input
+                  class="border-r-2 w-full border-t-2 border-b-2 border-gray-400 p-1 rounded-e-md pl-4 mt-2"
+                  type="text"
+                  placeholder="CVC"
+                  id="cvc"
+                  maxlength="3"
+                />
+              </div>
+            </div>
+
+            <div class="cardName">
+              <label for="name">Card Holder</label>
+              <input
+                class="mt-2 p-1 border-2 border-gray-400 w-1/2"
+                type="text"
+                placeholder="Barely"
+                id="name"
+              />
+            </div>
+            <div class="phone mt-4 mb-4">
+              <label for="phone">Phone Number</label>
+              <input
+                required
+                class="mt-2 p-1 border-2 border-gray-400 w-1/2"
+                type="text"
+                minlength="11"
+                maxlength="13"
+                pattern="{+201023261487}"
+                placeholder="+201234567890"
+                id="phone"
+              />
+              <small id="validPhone" class="hidden block mt-2 text-red-600"
+                >Enter valid phone !</small
+              >
+            </div>
+
+            <div class="country flex justify-between w-1/2">
+              <div>
+                <label for="country">Select Country</label>
+                <select
+                  id="country"
+                  class="outline-none mt-2 border-2 border-gray-400 p-1 pl-2 pr-2 appearance-none"
+                >
+                  <option value="Egypt">Egypt</option>
+                  <option value="UAE">UAE</option>
+                  <option value="KSA">KSA</option>
+                </select>
+              </div>
+              <div class="city">
+                <label for="city">City</label>
+                <select
+                  class="outline-none mt-2 border-2 border-gray-400 p-1 pl-2 pr-2 appearance-none"
+                  id="city"
+                >
+                  <option>Cairo</option>
+                  <option>Giza</option>
+                  <option>Alex</option>
+                  <option>Damanhur</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="allSallary w-1/2 mt-7">
+              <div class="sub flex justify-between items-center">
+                <h2 class="font-bold">Subtotal</h2>
+                <p id="allTotal"></p>
+              </div>
+
+              <div class="mt-5 mb-5 flex justify-between items-center">
+                <h2 class="font-bold">SHIPPING</h2>
+                <p id="shipping"></p>
+              </div>
+
+              <div class="vat mt-5 mb-5 flex justify-between items-center">
+                <h2 class="font-bold">VAT</h2>
+                <p id="vat"></p>
+              </div>
+
+              <div class="grand mt-5 mb-5 flex justify-between items-center">
+                <h2 class="font-bold">GRAND(TOTAL)</h2>
+                <p id="granfTotal"></p>
+              </div>
+            </div>
+
+            <div class="w-1/2 text-center mt-6 mb-6">
+              <button
+                id="btnPay"
+                class="w-full bg-blue-500 p-2 pl-3 pr-3 rounded-myBorder text-white text-sm tracking-letterSpacing duration-700 hover:bg-blue-800"
+                type="submit"
+              >
+                Pay now
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <footer
+      class="bg-black mt-10 p-4 flex justify-center flex-col sm:flex-row gap-4 sm:justify-between items-center pl-10 pr-10"
+    >
+      <div class="title text-white text-xs tracking-letterSpacing italic">
+        Copyright &copy; <span id="date"></span> Joe Store. All rights reserved.
+      </div>
+      <div class="social text-white flex gap-4 text-xl">
+        <a
+          class="duration-700 hover:text-blue-700"
+          href="https://web.facebook.com/yousef.abdallah.40"
+          ><i class="fa-brands fa-facebook"></i
+        ></a>
+        <a
+          class="duration-700 hover:text-blue-700"
+          href="https://www.linkedin.com/in/yousef-abdallah-760273242/"
+          ><i class="fa-brands fa-linkedin-in"></i
+        ></a>
+        <a class="duration-700 hover:text-blue-700" href="#"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

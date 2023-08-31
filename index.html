@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login / Register</title>
+    <link rel="icon" href="img/joe-store-logo.png" />
+    <link rel="stylesheet" href="dist/style.css" />
+    <link rel="stylesheet" href="css/script.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+  <body
+    class="flex items-center min-h-screen bg-gradient-to-l from-myColor to-secund"
+  >
+    <div
+      class="container flex-col md:flex-row rounded-xl bg-white flex justify-between"
+    >
+      <div class="right m-auto pt-16 pb-16 sm:pl-10 flex-1">
+        <h1
+          class="logo text-2xl mb-3 capitalize font-mono italic text-cyan-500 tracking-letterSpacing"
+        >
+          joe store
+        </h1>
+        <p class="text-xs">Welcome Back !!!</p>
+        <p class="text-4xl tracking-letterSpacin mt-5 font-bold" id="signUp">
+          Log In
+        </p>
+        <form class="mt-5 md:w-1/3" id="signIn">
+          <div class="email">
+            <label for="email" class="block">Email</label>
+            <input
+              type="text"
+              class="w-full bg-input mt-3 outline-none pl-3 pt-1 pb-1"
+              id="email"
+            />
+            <small class="hidden text-red-800 text-xs" id="validEmail"
+              >this mail is not found</small
+            >
+          </div>
+          <div class="password mt-5">
+            <label for="password" class="block">Password</label>
+            <input
+              type="password"
+              class="w-full bg-input mt-3 outline-none pl-3 pt-1 pb-1"
+              id="password"
+            />
+            <small class="hidden text-red-800 text-xs" id="validPass"
+              >Enter valid password</small
+            >
+            <p
+              id="Register"
+              class="text-xs text-green-500 capitalize text-right mt-3 cursor-pointer"
+              onclick="register()"
+            >
+              Register now
+            </p>
+          </div>
+          <div class="button text-center mt-6">
+            <div
+              onclick="sinInBtn()"
+              id="signBtn"
+              class="cursor-pointer bg-button p-2 rounded-2xl tracking-letterSpacing text-white text-sm duration-1000 hover:bg-pink-700"
+            >
+              LOGIN IN <i class="fa-solid fa-circle-arrow-right"></i>
+            </div>
+          </div>
+        </form>
+        <form class="mt-5 md:w-1/3 hidden" id="reg">
+          <div class="userName mb-3">
+            <label class="block" for="user">User Name</label>
+            <input
+              type="text"
+              class="w-full bg-input mt-3 outline-none pl-3 pt-1 pb-1"
+              id="user"
+            />
+          </div>
+          <div class="email">
+            <label for="regEmail" class="block">Email</label>
+            <input
+              type="text"
+              class="w-full bg-input mt-3 outline-none pl-3 pt-1 pb-1"
+              id="regEmail"
+            />
+            <small class="text-red-800 text-xs hidden registerMail"
+              >This email is already taken!</small
+            >
+          </div>
+          <div class="password mt-5">
+            <label for="regPass" class="block">Password</label>
+            <input
+              type="password"
+              class="w-full bg-input mt-3 outline-none pl-3 pt-1 pb-1"
+              id="regPass"
+            />
+            <small class="text-red-800 text-xs hidden errorPass"
+              >this field is required</small
+            >
+            <p
+              id="sign"
+              class="text-xs text-green-500 capitalize text-right mt-3 cursor-pointer"
+              onclick="logIn()"
+            >
+              Sign In
+            </p>
+          </div>
+          <div class="button text-center mt-6">
+            <div
+              onclick="registration()"
+              id="regBtn"
+              class="cursor-pointer bg-button p-2 rounded-2xl tracking-letterSpacing text-white text-sm duration-1000 hover:bg-pink-700"
+            >
+              Register
+            </div>
+          </div>
+          <div class="doneReg animate-pulse">
+            <i class="fa-solid fa-check"></i>
+          </div>
+        </form>
+      </div>
+      <div class="left md:w-1/3 bg-input rounded-xl relative">
+        <div class="flex justify-center char bottom-8 md:absolute">
+          <img src="img/Character-working-laptop-sitting-chair.png" alt="" />
+          <img src="img/Frame.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>

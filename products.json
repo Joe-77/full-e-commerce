@@ -1,0 +1,456 @@
+{
+  "products": [
+    {
+      "apple": [
+        {
+          "id": 1,
+          "name": "iPhone 14 Pro Max",
+          "salary": [65000, 67900, 71900, 75900],
+          "storage": ["128 GB", "256 GB", "512 GB", "1 TB"],
+          "images": [
+            "https://i5.walmartimages.com/seo/Straight-Talk-Apple-iPhone-14-Pro-Max-128GB-Silver-Prepaid-Smartphone-Locked-to-Straight-Talk_e0069f3e-9a9e-403e-8f37-18925e30d723.ab4506a1181022de52e7d4db5b973924.jpeg?odnHeight=640&odnWidth=640&odnBg=FFFFFF",
+            "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-14-pro-finish-select-202209-6-1inch_AV1?wid=2560&hei=1440&fmt=p-jpg&qlt=80&.v=1671474898960",
+            "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-14-pro-finish-select-202209-6-1inch_AV2_GEO_US?wid=2560&hei=1440&fmt=p-jpg&qlt=80&.v=1671474898987",
+            "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-14-pro-finish-select-202209-6-1inch_AV3?wid=2560&hei=1440&fmt=p-jpg&qlt=80&.v=1671474900699"
+          ],
+          "brand": "Apple",
+          "logo": "fa-brands fa-apple"
+        },
+
+        {
+          "id": 3,
+          "name": "iPhone 13 Pro Max",
+          "salary": [53900, 57900, 60900, 63900],
+          "storage": ["128 GB", "256 GB", "512 GB", "1 TB"],
+          "images": [
+            "https://tradelinestores.s3.amazonaws.com/media/product_images/94b7c0cb-e8da-4b33-b9ed-ede58d0131b4.png",
+            "https://tradelinestores.s3.amazonaws.com/media/product_images/16751abe-9136-4dc6-abcf-0f3da3085e69.png",
+            "https://tradelinestores.s3.amazonaws.com/media/product_images/2af17d38-bd65-40b5-9a35-c8664333f360.png",
+            "https://tradelinestores.s3.amazonaws.com/media/product_images/0a7a731d-0334-459a-bc6a-3531edebdd58.png"
+          ],
+          "brand": "Apple",
+          "logo": "fa-brands fa-apple"
+        },
+        {
+          "id": 4,
+          "name": "iPhone 13 Pro",
+          "salary": [48900, 52900, 56900, 61900],
+          "storage": ["128 GB", "256 GB", "512 GB", "1 TB"],
+          "images": [
+            "https://tradelinestores.s3.amazonaws.com/media/product_images/a51cf823-953f-4776-a066-0b6575e3454f.png",
+            "https://tradelinestores.s3.amazonaws.com/media/product_images/2020fd5f-2e01-4a99-bbf8-c4f828caa648.png",
+            "https://tradelinestores.s3.amazonaws.com/media/product_images/1983dc28-09e8-4c45-bf0d-e2ecd7fd6dc8.png",
+            "https://tradelinestores.s3.amazonaws.com/media/product_images/52ea36cf-8d2c-4b39-acc0-1e4f2d5fd47a.png"
+          ],
+          "brand": "Apple",
+          "logo": "fa-brands fa-apple"
+        },
+        {
+          "id": 5,
+          "name": "iPhone 13",
+          "salary": [34900, 37900, 40900],
+          "storage": ["128 GB", "256 GB", "512 GB"],
+          "images": [
+            "https://tradelinestores.s3.amazonaws.com/media/product_images/46a1edae-46f0-456d-8f01-5718c88176eb.png",
+            "https://tradelinestores.s3.amazonaws.com/media/product_images/5c22554b-bbf8-4035-ba8a-2b5c9d587865.png",
+            "https://tradelinestores.s3.amazonaws.com/media/product_images/7095bede-d186-43c4-9773-724b952b2e92.png"
+          ],
+          "brand": "Apple",
+          "logo": "fa-brands fa-apple"
+        },
+        {
+          "id": 6,
+          "name": "iPhone 12",
+          "salary": [28000],
+          "storage": ["128 GB"],
+          "images": [
+            "https://tradelinestores.s3.amazonaws.com/media/product_images/0700e99a-b454-4827-a243-418bd385742b.jpg",
+            "https://tradelinestores.s3.amazonaws.com/media/product_images/2089e5ae-17dc-41fe-bd51-9c889b47678b.jpg",
+            "https://tradelinestores.s3.amazonaws.com/media/product_images/2d474a68-80a2-41b8-96dc-c213a2c310dc.jpg",
+            "https://tradelinestores.s3.amazonaws.com/media/product_images/e732ea61-dba8-421e-ac8d-27edba059a5c.jpg"
+          ],
+          "brand": "Apple",
+          "logo": "fa-brands fa-apple"
+        },
+        {
+          "id": 7,
+          "name": "iPhone 11",
+          "salary": [23900, 25900],
+          "storage": ["64 GB", "128 GB"],
+          "images": [
+            "https://tradelinestores.s3.amazonaws.com/media/product_images/3a058fa3-ea5a-4eaf-9e42-3123e7e573f3.png",
+            "https://tradelinestores.s3.amazonaws.com/media/product_images/f010e53c-bd92-4c33-b8d8-ea310b01aab8.png",
+            "https://tradelinestores.s3.amazonaws.com/media/product_images/dc277a0d-ece1-4625-b415-41183959203b.png",
+            "https://tradelinestores.s3.amazonaws.com/media/product_images/66e9f293-746b-4975-bf6f-fbee0f7af518.png"
+          ],
+          "brand": "Apple",
+          "logo": "fa-brands fa-apple"
+        },
+        {
+          "id": 8,
+          "name": "iPad Pro 11‑inch Wi-Fi + Cellular",
+          "salary": [49900, 55500, 61900, 81900, 99900],
+          "storage": ["128 GB", "256 GB", "512 GB", "1 TB", "2 TB"],
+          "images": [
+            "https://tradelinestores.s3.amazonaws.com/media/product_images/0f37d5a5-42a4-439c-9b51-baf2cc24b423.png",
+            "https://tradelinestores.s3.amazonaws.com/media/product_images/d6e02f9c-a006-4ccf-9582-c57d4533d5f9.png"
+          ],
+          "brand": "Apple",
+          "logo": "fa-brands fa-apple"
+        },
+        {
+          "id": 9,
+          "name": "MacBook Pro 16-inch M2",
+          "salary": [196900],
+          "storage": ["1 TB"],
+          "images": [
+            "https://tradelinestores.s3.amazonaws.com/media/product_images/177acc11-dd79-4509-b0e6-35e80c053a58.png",
+            "https://tradelinestores.s3.amazonaws.com/media/product_images/82866d81-45b6-4160-b2eb-ff5c9ab5e88f.png",
+            "https://tradelinestores.s3.amazonaws.com/media/product_images/006b9bdb-fcb6-47f4-bd4a-0622d473c19b.png"
+          ],
+          "brand": "Apple",
+          "logo": "fa-brands fa-apple"
+        },
+        {
+          "id": 10,
+          "name": "MacBook Air 15-inch M2",
+          "salary": [78800],
+          "storage": ["512 GB"],
+          "images": [
+            "https://tradelinestores.s3.amazonaws.com/media/product_images/939d485f-5e5c-4276-bb56-cce8c0a0480c.png",
+            "https://tradelinestores.s3.amazonaws.com/media/product_images/122336b9-a636-4b91-bc64-2414a83b7032.png",
+            "https://tradelinestores.s3.amazonaws.com/media/product_images/1f324c5d-8850-48ad-b2ff-df622ed43116.png"
+          ],
+          "brand": "Apple",
+          "logo": "fa-brands fa-apple"
+        },
+        {
+          "id": 11,
+          "name": "Apple Watch Series 8",
+          "salary": [19999],
+          "storage": ["45mm"],
+          "images": [
+            "https://tradelinestores.s3.amazonaws.com/media/product_images/01644978-c6bd-4ee7-b255-1a9b8415d2c8.jpg",
+            "https://tradelinestores.s3.amazonaws.com/media/product_images/6f1137bb-3290-4ecc-9b45-dd201b3852b7.jpg",
+            "https://tradelinestores.s3.amazonaws.com/media/product_images/7a5ff52b-20e4-440e-b21d-204ae2d6490f.jpg",
+            "https://tradelinestores.s3.amazonaws.com/media/product_images/12c34e9e-e071-4d52-a0bb-7223963923c4.jpg"
+          ],
+          "brand": "Apple",
+          "logo": "fa-brands fa-apple"
+        },
+        {
+          "id": 12,
+          "name": "Apple Watch Series 7",
+          "salary": [18350],
+          "storage": ["45mm"],
+          "images": [
+            "https://tradelinestores.s3.amazonaws.com/media/product_images/07abe790-56cb-4863-87d3-50e37e2fd046.png",
+            "https://tradelinestores.s3.amazonaws.com/media/product_images/1c4e8147-4448-45d9-b050-c7579ab01a84.png",
+            "https://tradelinestores.s3.amazonaws.com/media/product_images/95bcb5d0-db4f-4ae8-ba44-23a45867350d.png"
+          ],
+          "brand": "Apple",
+          "logo": "fa-brands fa-apple"
+        },
+        {
+          "id": 13,
+          "name": "AirPods Max",
+          "salary": [16999],
+          "storage": [],
+          "images": [
+            "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/airpods-max-select-pink-202011?wid=470&hei=556&fmt=png-alpha&.v=1604022365000",
+            "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/airpods-max-pink-witb?wid=231&hei=340&fmt=jpeg&qlt=95&.v=1603906260000",
+            "https://th.bing.com/th/id/OIP.OtVbivT5VJtfN1rqLtfyjAHaE4?w=255&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+          ],
+          "brand": "Apple",
+          "logo": "fa-brands fa-apple"
+        }
+      ],
+
+      "samsung": [
+        {
+          "id": 18,
+          "name": "Galaxy Z Fold5",
+          "salary": [77500],
+          "storage": ["512 GB"],
+          "images": [
+            "https://images.samsung.com/is/image/samsung/p6pim/eg/sm-f946bzkgmea/gallery/eg-galaxy-z-fold5-f946-466844-sm-f946bzkgmea-thumb-537981172?$172_172_PNG$",
+            "https://image-us.samsung.com/us/smartphones/galaxy-z-fold5/configurator/02-exclusive-Zfold5-Configurator-800x600.jpg",
+            "https://image-us.samsung.com/SamsungUS/PIM/Gallery-Q5-800x600_1-Launch________2.jpg"
+          ],
+          "brand": "Samsung"
+        },
+        {
+          "id": 19,
+          "name": "Galaxy Z Flip5",
+          "salary": [44600],
+          "storage": ["512 GB"],
+          "images": [
+            "https://images.samsung.com/is/image/samsung/p6pim/eg/2307/gallery/eg-galaxy-z-flip5-f731-sm-f731blgamea-thumb-537222294?$172_172_PNG$",
+            "https://images.samsung.com/eg/smartphones/galaxy-z-flip5/images/galaxy-z-flip5-highlights-overview-battery.jpg?imbypass=true",
+            "https://images.samsung.com/eg/smartphones/galaxy-z-flip5/images/galaxy-z-flip5-highlights-colors-mint.jpg?imbypass=true"
+          ],
+          "brand": "Samsung"
+        },
+        {
+          "id": 20,
+          "name": "Galaxy Watch5",
+          "salary": [11999],
+          "storage": ["45mm"],
+          "images": [
+            "https://images.samsung.com/is/image/samsung/p6pim/eg/2208/gallery/eg-galaxy-watch5-44mm-sm-r910nzaamea-thumb-533192749?$216_216_PNG$",
+            "https://www.samsung.com/global/galaxy/galaxy-watch5/images/galaxy-watch5-bottm-bioacitive-sensor.jpg",
+            "https://www.samsung.com/global/galaxy/galaxy-watch5/images/galaxy-watch5-bioacitive-sensor-bia.jpg"
+          ],
+          "brand": "Samsung"
+        },
+        {
+          "id": 21,
+          "name": "Galaxy Watch4",
+          "salary": [7200],
+          "storage": ["45mm"],
+          "images": [
+            "https://images.samsung.com/is/image/samsung/p6pim/eg/2108/gallery/eg-galaxy-watch4-398977-sm-r870nzkamea-thumb-481128272?$216_216_PNG$",
+            "https://www.samsung.com/global/galaxy/galaxy-watch4/specs/images/galaxy-watch4_specs_design_aluminum-lte-bluetooth-40mm-silver_s4.jpg",
+            "https://www.samsung.com/global/galaxy/galaxy-watch4/specs/images/galaxy-watch4_specs_design_aluminum-lte-bluetooth-44mm-black_s4.jpg"
+          ],
+          "brand": "Samsung"
+        },
+        {
+          "id": 22,
+          "name": "Galaxy Buds2 Pro",
+          "salary": [7699],
+          "storage": "",
+          "images": [
+            "https://www.samsung.com/global/galaxy/galaxy-buds2-pro/images/galaxy-buds2-pro-kv.jpg",
+            "https://www.samsung.com/global/galaxy/galaxy-buds2-pro/images/galaxy-buds2-pro-hifi-audio-visual.jpg",
+            "https://www.samsung.com/global/galaxy/galaxy-buds2-pro/images/galaxy-buds2-pro-anc-internal-view.jpg"
+          ],
+          "brand": "Samsung"
+        },
+        {
+          "id": 23,
+          "name": "Galaxy Buds Live Mystic Bronze",
+          "salary": [4222],
+          "storage": "",
+          "images": [
+            "https://image-us.samsung.com/SamsungUS/home/easy-asset/05172022/SDSAC-4253-BudsLive_Bronze-03-PDP-GALLERY-TV-1600x1200.jpg?$product-details-blur-jpg$",
+            "https://image-us.samsung.com/SamsungUS/home/easy-asset/05172022/SDSAC-4253-BudsLive_Bronze-01-PDP-GALLERY-TV-1600x1200.jpg?$product-details-jpg$",
+            "https://image-us.samsung.com/SamsungUS/home/easy-asset/05172022/SDSAC-4253-BudsLive_Lifestyle-01-PDP-GALLERY-TV-1600x1200.jpg?$product-details-jpg$"
+          ],
+          "brand": "Samsung"
+        },
+        {
+          "id": 24,
+          "name": "Galaxy Book3 Ultra",
+          "salary": [74164],
+          "storage": ["1TB"],
+          "images": [
+            "https://images.samsung.com/is/image/samsung/assets/us/easy-asset/cbsr-6230/HD01-HeroKV-GB3-Ultra-lifestyle-D.jpg?imwidth=2560",
+            "https://images.samsung.com/is/image/samsung/assets/us/galaxybooks/galaxy-book3-ultra/08232023/GB3Ultra-CNET-D.jpg?$FB_TYPE_A_JPG$",
+            "https://images.samsung.com/is/image/samsung/assets/us/easy-asset/cbsr-5328/a4/GB3Ultra-MLP_FT03_03_Display_D.jpg?$FB_TYPE_A_JPG$"
+          ],
+          "brand": "Samsung"
+        },
+        {
+          "id": 25,
+          "name": "Galaxy Book3 Pro 360",
+          "salary": [58700],
+          "storage": ["1TB"],
+          "images": [
+            "https://www.samsung.com/global/galaxy/galaxy-book3-pro-360/images/galaxy_book3_pro360_kv_pc.jpg",
+            "https://www.samsung.com/global/galaxy/galaxy-book3-pro-360/images/galaxy_book3_pro360_weight_pc.jpg",
+            "https://www.samsung.com/global/galaxy/galaxy-book3-pro-360/images/galaxy_book3_pro360_s-pen01_pc.jpg"
+          ],
+          "brand": "Samsung"
+        },
+        {
+          "id": 26,
+          "name": "Galaxy Book3 Pro",
+          "salary": [38630],
+          "storage": ["1TB"],
+          "images": [
+            "https://image-us.samsung.com/us/computers/galaxy-book3-pro/configurator/GB3-Family-Configurator-800x600.jpg",
+            "https://image-us.samsung.com/us/computers/galaxy-book3-pro/configurator/GB3_Pro-2-Configurator-800x600.jpg",
+            "https://image-us.samsung.com/us/computers/galaxy-book3-pro/configurator/GB3_Pro-lifestyle-Configurator-800x600.jpg"
+          ],
+          "brand": "Samsung"
+        },
+        {
+          "id": 27,
+          "name": "Galaxy Chromebook 2",
+          "salary": [13930],
+          "storage": ["128 GB"],
+          "images": [
+            "https://image-us.samsung.com/SamsungUS/configurator/Config-Gallery-Chromebook2-Red-04-765x465.jpg",
+            "https://image-us.samsung.com/SamsungUS/home/computing/chromebooks/galaxy-chromebook2/01-29-2021/02042021/Chromebook2-handraiser_reserve_KV_PC.jpg?$feature-benefit-bottom-jpg$",
+            "https://image-us.samsung.com/SamsungUS/home/computing/chromebooks/xe530qca-kb1us/gallery/02-02-2021/Position1.jpg",
+            "https://image-us.samsung.com/SamsungUS/configurator/Config-Gallery-Chromebook2-Gray-02-765x465.jpg"
+          ],
+          "brand": "Samsung"
+        },
+        {
+          "id": 28,
+          "name": "Galaxy Chromebook",
+          "salary": [30950],
+          "storage": ["256 GB"],
+          "images": [
+            "https://image-us.samsung.com/SamsungUS/home/computing/chromebooks/pdp/xe930qca-k02us/PDP-GALLERY-XE930QCA-025-Front-Gray-1600x1200.jpg",
+            "https://image-us.samsung.com/SamsungUS/configurator/12121/Configurator-chromebook-04-765x465.jpg",
+            "https://image-us.samsung.com/SamsungUS/configurator/12121/Configurator-chromebook-01-765x465.jpg",
+            "https://image-us.samsung.com/SamsungUS/configurator/12121/Configurator-chromebook-02-765x465.jpg"
+          ],
+          "brand": "Samsung"
+        },
+        {
+          "id": 29,
+          "name": "Galaxy Book2 Pro 5G",
+          "salary": [44880],
+          "storage": ["256 GB"],
+          "images": [
+            "https://image-us.samsung.com/SamsungUS/configurator/gb2/SDSAC-3886-GB2-01-configurator-720x540.jpg",
+            "https://image-us.samsung.com/SamsungUS/configurator/gb2/SDSAC-3886-GB2_Pro_360-lifestyle-configurator-720x540.jpg",
+            "https://image-us.samsung.com/SamsungUS/home/computing/galaxy-books/galaxy-book2-pro-360-5g/1-Gallery-1600x1200.jpg",
+            "https://image-us.samsung.com/SamsungUS/PIM/SDSAC-4790-Sustainability-GBP2360-DT-720x540.jpg"
+          ],
+          "brand": "Samsung"
+        },
+        {
+          "id": 30,
+          "name": "Galaxy Tab S9",
+          "salary": [24760],
+          "storage": ["128 GB"],
+          "images": [
+            "https://image-us.samsung.com/SamsungUS/PIM/new_SDSAC-6164-TabS9_KV-Configurator-800x600_new.jpg",
+            "https://image-us.samsung.com/SamsungUS/PIM/UXD-1486_S9_promo_DT-Launch_2.jpg",
+            "https://image-us.samsung.com/SamsungUS/PIM/UXD-1486_S9_promo_TI-DT-Launch_1.jpg",
+            "https://image-us.samsung.com/us/tablets/galaxy-tab-s9/configurator/04-Tablets-configurator-800x600.jpg"
+          ],
+          "brand": "Samsung"
+        }
+      ],
+      "lenovo": [
+        {
+          "id": 31,
+          "name": "Motorola Edge 30",
+          "salary": [14350],
+          "storage": ["256 GB"],
+          "images": [
+            "https://motorolamea.vtexassets.com/arquivos/ids/156643-800-auto?width=800&height=auto&aspect=true",
+            "https://motorolamea.vtexassets.com/arquivos/ids/156649-800-auto?width=800&height=auto&aspect=true",
+            "https://motorolamea.vtexassets.com/arquivos/ids/156651-800-auto?width=800&height=auto&aspect=true",
+            "https://motorolamea.vtexassets.com/arquivos/ids/156652-800-auto?width=800&height=auto&aspect=true"
+          ],
+          "brand": "Lenovo"
+        },
+        {
+          "id": 32,
+          "name": "Legion 5",
+          "salary": [48000],
+          "storage": ["1 TB"],
+          "images": [
+            "https://f.nooncdn.com/p/v1686807592/N53414147A_1.jpg?format=webp&width=800",
+            "https://f.nooncdn.com/p/v1686807592/N53414147A_2.jpg?format=webp&width=800",
+            "https://f.nooncdn.com/p/v1686807592/N53414147A_4.jpg?format=webp&width=800"
+          ],
+          "brand": "Lenovo"
+        },
+        {
+          "id": 33,
+          "name": "Legion 5",
+          "salary": [47000],
+          "storage": ["512 GB"],
+          "images": [
+            "https://f.nooncdn.com/p/v1686976259/N53414650A_1.jpg?format=webp&width=800",
+            "https://f.nooncdn.com/p/v1686976259/N53414650A_2.jpg?format=webp&width=800",
+            "https://f.nooncdn.com/p/v1686976259/N53414650A_3.jpg?format=webp&width=800"
+          ],
+          "brand": "Lenovo"
+        },
+        {
+          "id": 34,
+          "name": "Lenovo LivePods HT38",
+          "salary": [800],
+          "storage": [],
+          "images": [
+            "https://m.media-amazon.com/images/I/41vonfq0WhS._AC_SX569_.jpg",
+            "https://m.media-amazon.com/images/I/61f47TcO3oS._AC_SX569_.jpg",
+            "https://m.media-amazon.com/images/I/51M1nR+MuOS._AC_SX569_.jpg"
+          ],
+          "brand": "Lenovo"
+        },
+        {
+          "id": 35,
+          "name": "ThinkPad L13 Yoga",
+          "salary": [36500],
+          "storage": ["512 GB"],
+          "images": [
+            "https://m.media-amazon.com/images/I/51FmZTizmyL._AC_SX569_.jpg",
+            "https://m.media-amazon.com/images/I/5149DmpYa6L._AC_SX569_.jpg",
+            "https://m.media-amazon.com/images/I/51RaGP+LrOL._AC_SX569_.jpg"
+          ],
+          "brand": "Lenovo"
+        },
+        {
+          "id": 36,
+          "name": "Lenovo 110 Stereo",
+          "salary": [790],
+          "storage": [],
+          "images": [
+            "https://m.media-amazon.com/images/I/61bZQAZ148L._AC_SX569_.jpg",
+            "https://m.media-amazon.com/images/I/61qDJ2mQ0OL._AC_SX569_.jpg",
+            "https://m.media-amazon.com/images/I/71RBC72ZXuL._AC_SX569_.jpg"
+          ],
+          "brand": "Lenovo"
+        },
+        {
+          "id": 37,
+          "name": "Lenovo Gaming",
+          "salary": [18800],
+          "storage": ["32 QHD"],
+          "images": [
+            "https://m.media-amazon.com/images/I/71PKcv5SGXL._AC_SX569_.jpg",
+            "https://m.media-amazon.com/images/I/71wSHqZKYbL._AC_SX569_.jpg",
+            "https://m.media-amazon.com/images/I/718PcGPivCL._AC_SX569_.jpg"
+          ],
+          "brand": "Lenovo"
+        },
+        {
+          "id": 38,
+          "name": "Lenovo IdeaCentre Gaming 5",
+          "salary": [53000],
+          "storage": ["1 TB"],
+          "images": [
+            "https://smhttp-ssl-73217.nexcesscdn.net/pub/media/catalog/product/cache/661473ab953cdcdf4c3b607144109b90/p/c/pc913-1-2b.jpg",
+            "https://smhttp-ssl-73217.nexcesscdn.net/pub/media/catalog/product/cache/661473ab953cdcdf4c3b607144109b90/p/c/pc913-3-2b.jpg",
+            "https://smhttp-ssl-73217.nexcesscdn.net/pub/media/catalog/product/cache/661473ab953cdcdf4c3b607144109b90/p/c/pc913-5-2b.jpg"
+          ],
+          "brand": "Lenovo"
+        },
+        {
+          "id": 39,
+          "name": "Lenovo Tab Yoga ",
+          "salary": [14500],
+          "storage": ["128 GB"],
+          "images": [
+            "https://smhttp-ssl-73217.nexcesscdn.net/pub/media/catalog/product/cache/661473ab953cdcdf4c3b607144109b90/y/o/yoga11-1_1.png",
+            "https://smhttp-ssl-73217.nexcesscdn.net/pub/media/catalog/product/cache/661473ab953cdcdf4c3b607144109b90/y/o/yoga11-2_1.png",
+            "https://smhttp-ssl-73217.nexcesscdn.net/pub/media/catalog/product/cache/661473ab953cdcdf4c3b607144109b90/y/o/yoga11-3_1.png"
+          ],
+          "brand": "Lenovo"
+        },
+        {
+          "id": 40,
+          "name": "Lenovo Tab M8  ",
+          "salary": [4500],
+          "storage": ["32 GB"],
+          "images": [
+            "https://smhttp-ssl-73217.nexcesscdn.net/pub/media/catalog/product/cache/661473ab953cdcdf4c3b607144109b90/z/r/zr033-1_2.jpg",
+            "https://smhttp-ssl-73217.nexcesscdn.net/pub/media/catalog/product/cache/661473ab953cdcdf4c3b607144109b90/z/r/zr033-3_2.jpg",
+            "https://smhttp-ssl-73217.nexcesscdn.net/pub/media/catalog/product/cache/661473ab953cdcdf4c3b607144109b90/z/r/zr033-4_2.jpg"
+          ],
+          "brand": "Lenovo"
+        }
+      ]
+    }
+  ]
+}

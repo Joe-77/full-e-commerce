@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="img/joe-store-logo.png" />
+    <title>Lenovo</title>
+    <link rel="stylesheet" href="dist/style.css" />
+    <link rel="stylesheet" href="css/script.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div
+        class="header p-5 fixed z-[100] w-full top-0 left-0 bg-white shadow-md shadow-stone-800 flex-col md:flex-row gap-4 flex items-center justify-between"
+      >
+        <div
+          class="homeLogo flex justify-between items-center w-full md:w-auto"
+        >
+          <h1
+            class="cursor-pointer select-none text-myColor italic md:text-xl font-mono animate-pulse"
+          >
+            Joe Store
+          </h1>
+          <div class="menu block md:hidden cursor-pointer">
+            <i onclick="showMenu()" class="fa-solid fa-bars"></i>
+          </div>
+        </div>
+        <ul class="category flex flex-col md:flex-row items-center gap-10">
+          <i onclick="hideMenu()" class="fa-solid fa-xmark" id="clothe"></i>
+          <li class="duration-700 hover:text-red-700">
+            <a href="home.html">Home</a>
+          </li>
+          <li class="duration-700 hover:text-red-700">
+            <a href="apple.html">Apple</a>
+          </li>
+          <li class="duration-700 hover:text-red-700">
+            <a href="samsung.html" class="flex gap-1"> Samsung </a>
+          </li>
+          <li class="duration-700 hover:text-red-700">
+            <a href="lenovo.html" class="flex gap-1"> Lenovo </a>
+          </li>
+        </ul>
+        <div class="right flex items-center gap-10">
+          <div class="search relative">
+            <input
+              class="outline-none mr-2 bg-input w-12 duration-700 pl-2 focus:pl-4 focus:w-20 sm:focus:w-32 rounded-xl"
+              type="text"
+              id="searchPar"
+              onkeyup="searchProduct()"
+            />
+            <i class="cursor-pointer fa-solid fa-magnifying-glass"></i>
+          </div>
+          <div class="users">
+            <i class="fa-regular fa-user"></i>
+            <span class="text-xs capitalize" id="yourName">welcome</span>
+          </div>
+          <div class="cart relative cursor-pointer">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span id="cartNumber">0</span>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="changeBackGround bg-black appleVideo mt-32 md:mt-24 p-4 overflow-hidden"
+      >
+        <video class="w-full h-full" loop autoplay muted>
+          <source src="video/Lenovo Premium Suite (2023).mp4" />
+        </video>
+      </div>
+
+      <div
+        class="productList lenovo grid grid-cols-1 justify-center md:grid-cols-2 lg:grid-cols-3 gap-10 mt-7"
+      ></div>
+    </div>
+
+    <footer
+      class="bg-black mt-10 p-4 flex justify-center flex-col sm:flex-row gap-4 sm:justify-between items-center pl-10 pr-10"
+    >
+      <div class="title text-white text-xs tracking-letterSpacing italic">
+        Copyright &copy; <span id="date"></span> Joe Store. All rights reserved.
+      </div>
+      <div class="social text-white flex gap-4 text-xl">
+        <a
+          class="duration-700 hover:text-blue-700"
+          href="https://web.facebook.com/yousef.abdallah.40"
+          ><i class="fa-brands fa-facebook"></i
+        ></a>
+        <a
+          class="duration-700 hover:text-blue-700"
+          href="https://www.linkedin.com/in/yousef-abdallah-760273242/"
+          ><i class="fa-brands fa-linkedin-in"></i
+        ></a>
+        <a class="duration-700 hover:text-blue-700" href="#"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
